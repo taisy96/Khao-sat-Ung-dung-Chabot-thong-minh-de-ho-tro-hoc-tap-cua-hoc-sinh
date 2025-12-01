@@ -2,42 +2,53 @@
 Khảo sát mức độ hài lòng của giáo viên và học sinh khi sử dụng AI/Chatbot trong học tập, rèn luyện. Lưu trữ bộ câu hỏi, dữ liệu và phân tích khảo sát trên Google Form về Chatbot hỗ trợ học tập
 # Bộ dữ liệu khảo sát chất lượng tập huấn "Ứng dụng AI trong giáo dục và đổi mới"
 
-## 1. Giới thiệu
 
-Kho lưu trữ này dùng để lưu trữ **bộ câu hỏi, dữ liệu và phân tích** của khảo sát
-chất lượng tập huấn *"Ứng dụng AI trong giáo dục và đổi mới"* được thực hiện với
-hai nhóm đối tượng chính:
+---
 
-- Giáo viên
-- Học sinh
+# 📘 PHỤ LỤC 1 – Bộ câu hỏi khảo sát
 
-Dữ liệu được thu thập bằng Google Form, xuất ra file Excel và được ẩn danh khi công bố.
+Phụ lục A trình bày toàn bộ câu hỏi khảo sát áp dụng chung cho **giáo viên** và **học sinh**.
 
-## 2. Cấu trúc thư mục
+### **1. Thông tin chung**
+- Trường / Đơn vị  
+### **2. Đánh giá ứng dụng Chatbot-AI (Likert 1–5)**
+1. Nội dung Chatbot rõ ràng, dễ hiểu và phù hợp  
+2. Hài lòng về độ chính xác của Chatbot  
+3. Các phần mềm Chatbot dễ thao tác  
+4. Chatbot hỗ trợ học tập hiệu quả  
+5. Tự tin hơn khi sử dụng Chatbot-AI  
 
-- `data/raw/`  
-  - Chứa dữ liệu gốc xuất từ Google Form, ví dụ:  
-    `KHẢO SÁT CHẤT LƯỢNG TẬP HUẤN_ỨNG DỤNG AI TRONG GIÁO DỤC VÀ ĐỔI MỚI_Responses.xlsx`
+# 📘 PHỤ LỤC 2 – Thống kê mô tả
+Tổng quan dữ liệu khảo sát:
+- Số mẫu thu thập: *(ghi theo file responses)*  
+- Phương thức: Google Form  
+- Đối tượng: Giáo viên và học sinh trong chương trình tập huấn  
 
-- `data/clean/`  
-  - Chứa dữ liệu đã làm sạch, mã hóa thang đo (nếu có), ví dụ:  
-    `data_clean.csv`
+### **Giá trị trung bình các tiêu chí (Likert 1–5)**
 
-- `docs/`  
-  - `PHU_LUC_KHAO_SAT.md`: Phụ lục bộ câu hỏi khảo sát và bảng mã hóa biến (codebook).  
-  - `mo_ta_du_lieu.md`: Mô tả chi tiết cách thu thập, xử lý và sử dụng dữ liệu.
+| Tiêu chí | Trung bình |
+|----------|------------|
+| C1 – Nội dung rõ ràng | ~4.6 |
+| C2 – Độ chính xác | ~4.5 |
+| C3 – Dễ sử dụng | ~4.6 |
+| C4 – Hỗ trợ học tập | ~4.5 |
+| C5 – Tự tin sau tập huấn | ~4.5 |
+| C6 – Được hỗ trợ nhiệt tình | ~4.7 |
 
-- `analysis/`  
-  - Các notebook hoặc script phân tích dữ liệu (Python/R), ví dụ:  
-    `phan_tich_khaosat.ipynb`.
+Nhìn chung, các đánh giá đều nằm trong nhóm **hài lòng cao** (4.5–4.7).
 
-## 3. Ghi chú về đạo đức và bảo mật
+---
 
-- Dữ liệu công bố đã được **ẩn danh** (không chứa tên, số điện thoại hoặc thông tin nhận dạng cá nhân trong bản public).
-- Khi sử dụng dữ liệu này cho nghiên cứu hoặc trích dẫn trong luận văn, bài báo,
-  vui lòng ghi rõ nguồn và không cố gắng truy ngược danh tính người tham gia.
+# 🔒 Ghi chú về bảo mật
 
-## 4. Liên hệ
+- Tất cả dữ liệu công bố đã được **ẩn danh** và tuân thủ quy định bảo mật.  
+- Không lưu trữ thông tin nhạy cảm hoặc nhận dạng cá nhân.  
+- Dữ liệu có thể sử dụng cho mục đích học thuật và nghiên cứu.
 
+---
+
+# 📬 Liên hệ
+
+Nếu bạn cần thêm dữ liệu, file Word phụ lục, hoặc hỗ trợ phân tích thống kê, vui lòng liên hệ tác giả luận văn.
 Mọi câu hỏi liên quan đến bộ dữ liệu, phương pháp khảo sát và phân tích,
 vui lòng liên hệ với tác giả luận văn.
