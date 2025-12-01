@@ -11,7 +11,7 @@ Phụ lục A trình bày toàn bộ câu hỏi khảo sát áp dụng chung cho
 
 ### **1. Thông tin chung**
 - Trường / Đơn vị  
-### **2. Đánh giá ứng dụng Chatbot-AI (Likert 1–5)**
+### **2. Đánh giá ứng dụng Chatbot-AI (Thang điểm 1–5)**
 1. Nội dung Chatbot rõ ràng, dễ hiểu và phù hợp  
 2. Hài lòng về độ chính xác của Chatbot  
 3. Các phần mềm Chatbot dễ thao tác  
@@ -24,7 +24,7 @@ Tổng quan dữ liệu khảo sát:
 - Phương thức: Google Form  
 - Đối tượng: Giáo viên và học sinh trong chương trình tập huấn  
 
-### **Giá trị trung bình các tiêu chí (Likert 1–5)**
+### **Giá trị trung bình các tiêu chí (Thang điểm 1–5)**
 
 | Tiêu chí | Trung bình |
 |----------|------------|
